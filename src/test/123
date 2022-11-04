@@ -1,0 +1,13 @@
+Exception encountered during context initialization
+- cancelling refresh attempt:
+org.springframework.beans.factory.BeanDefinitionStoreException:
+Failed to read candidate component class:
+ file [D:\IntelliJ IDEA 2022.1.4\xiangmu\reggie\target\
+ classes\com\wcq\reggie\ReggieApplication.class];
+ nested exception is org.springframework.core.NestedIOException:
+  ASM ClassReader failed to parse class file -
+   probably due to a new Java class file version that isn't supported yet:
+    file [D:\IntelliJ IDEA 2022.1.4\xiangmu\reggie\target\
+    classes\com\wcq\reggie\ReggieApplication.class];
+    nested exception is java.lang.IllegalArgumentException:
+    Unsupported class file major version 62
